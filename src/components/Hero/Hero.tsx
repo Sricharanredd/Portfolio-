@@ -89,8 +89,8 @@ const Hero: React.FC = () => {
             className="flex justify-center space-x-6 mb-16"
           >
             {[
-              { icon: Github, href: 'https://github.com', label: 'GitHub' },
-              { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+              { icon: Github, href: 'https://github.com/Sricharanredd', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/sri-charan-reddy-katterapu-6902b9263/', label: 'LinkedIn' },
               { icon: Mail, href: 'mailto:sricharanreddykatterapu@gmail.com', label: 'Email' }
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
