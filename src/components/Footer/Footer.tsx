@@ -6,9 +6,9 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/Sricharanredd', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/sri-charan-reddy-katterapu-6902b9263/', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://x.com/Sricharan228', label: 'Twitter' },
     { icon: Mail, href: 'mailto:sricharanreddykatterapu@gmail.com', label: 'Email' }
   ];
 
