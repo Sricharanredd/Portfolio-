@@ -36,8 +36,8 @@ export const projects: Project[] = [
     description: "A beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
     image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600",
     techStack: ["React", "Tailwind CSS", "OpenWeather API"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://demo.com",
+    githubUrl: "https://github.com/Sricharanredd/weather-dev",
+    liveUrl: "https://weather-dev-ten.vercel.app/",
     category: "frontend"
   },
   {
@@ -66,8 +66,8 @@ export const projects: Project[] = [
     description: "A modern, responsive portfolio website with smooth animations and dark mode toggle built with React and Framer Motion.",
     image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600",
     techStack: ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://demo.com",
+    githubUrl: "https://github.com/Sricharanredd/Portfolio-",
+    liveUrl: "https://web-portfolio-charan.vercel.app/",
     category: "frontend"
   }
 ];
