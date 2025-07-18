@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, Download } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter,  Eye } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
 const Contact: React.FC = () => {
@@ -155,8 +155,16 @@ const Contact: React.FC = () => {
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                <Download size={20} />
-                <span>Download Resume</span>
+                <motion.a
+                  href="/assets/resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2">
+                  <Eye size={20} />
+                    <span>View Resume</span>
+                  </motion.a>
+
+                
               </motion.button>
             </motion.div>
           </motion.div>
